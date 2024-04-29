@@ -1,12 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr:true, 
-  devtools: { enabled: true },
+  ssr: true,
+  devtools: { enabled: true }, //开启nuxt调试工具
   srcDir: 'src/',
   modules: [
     // ...
     '@pinia/nuxt',
     '@vueuse/nuxt',
+    '@vant/nuxt',
   ],
   // alias: {
   //   '@': '~/src', // 将 '@' 别名指向 'src' 目录

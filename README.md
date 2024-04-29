@@ -32,8 +32,12 @@ Nuxt.js自带基于文件的路由系统，不需要安装vue-router，不需要
 
 ### Vant/Nuxt组件库
 
-```vue
+**专门用于nuxt版本的vant组件库**
 
+此处使用node版本是18.16.0(建议大于等于该版本，如果安装有报错，建议升级node版本)，pnpm：8.15.4
+
+```vue
+npm i vant @vant/nuxt -D
 ```
 
 ## Setup

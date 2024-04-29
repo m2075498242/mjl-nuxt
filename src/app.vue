@@ -13,3 +13,9 @@ useSeoMeta({
     <!-- <NuxtLink to="video">视频页面</NuxtLink> 相当于router-link -->
   </div>
 </template>
+<style>
+:root {
+  /* 变量设置组件库主题色全局设置主题色 */
+  --van-primary-color: #fc83a5 !important;
+}
+</style>
