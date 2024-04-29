@@ -1,9 +1,7 @@
 <template>
   <div>
-    <!-- 路由出口 -->
-    <NuxtLayout>
-      <NuxtLayout name="header" />
-      <NuxtPage></NuxtPage>
-    </NuxtLayout>
+    <!-- 相当于Router-view -->
+    <NuxtPage />
+    <!-- <NuxtLink to="video">视频页面</NuxtLink> 相当于router-link -->
   </div>
 </template>

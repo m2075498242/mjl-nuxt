@@ -1,0 +1,224 @@
+F:\213\mjl-nuxt
+├─.eslintignore
+├─.gitignore
+├─directoryList.md
+├─eslintrc.js
+├─nuxt.config.ts
+├─package.json
+├─pnpm-lock.yaml
+├─prettier.config.js
+├─README.md
+├─tsconfig.json
+├─src
+|  ├─app.vue
+|  ├─store
+|  |   └index.ts
+|  ├─plugins
+|  |    └directives.ts
+|  ├─pages
+|  |   ├─index.vue
+|  |   ├─list.vue
+|  |   ├─[id]
+|  |   |  └index.vue
+|  ├─layouts
+|  |    ├─default.vue
+|  |    └header.vue
+|  ├─composables
+|  |      └useFoo.ts
+|  ├─components
+|  |     └ListItem.vue
+|  ├─assets
+|  |   ├─styles
+|  |   |   └default.scss
+├─server
+|   └tsconfig.json
+├─.nuxt
+|   ├─app.config.mjs
+|   ├─components.d.ts
+|   ├─imports.d.ts
+|   ├─nitro.json
+|   ├─nuxt.d.ts
+|   ├─nuxt.json
+|   ├─tsconfig.json
+|   ├─tsconfig.server.json
+|   ├─vue-router-stub.d.ts
+|   ├─types
+|   |   ├─app.config.d.ts
+|   |   ├─imports.d.ts
+|   |   ├─layouts.d.ts
+|   |   ├─middleware.d.ts
+|   |   ├─nitro-config.d.ts
+|   |   ├─nitro-imports.d.ts
+|   |   ├─nitro-nuxt.d.ts
+|   |   ├─nitro-routes.d.ts
+|   |   ├─nitro.d.ts
+|   |   ├─plugins.d.ts
+|   |   ├─schema.d.ts
+|   |   └vue-shim.d.ts
+|   ├─schema
+|   |   ├─nuxt.schema.d.ts
+|   |   └nuxt.schema.json
+|   ├─manifest
+|   |    ├─latest.json
+|   |    ├─meta
+|   |    |  └dev.json
+|   ├─dist
+|   |  ├─server
+|   |  |   ├─client.manifest.json
+|   |  |   ├─client.manifest.mjs
+|   |  |   └server.mjs
+|   ├─dev
+|   |  ├─index.mjs
+|   |  └index.mjs.map
+├─.git
+|  ├─COMMIT_EDITMSG
+|  ├─config
+|  ├─description
+|  ├─FETCH_HEAD
+|  ├─HEAD
+|  ├─index
+|  ├─ORIG_HEAD
+|  ├─sourcetreeconfig.json
+|  ├─refs
+|  |  ├─tags
+|  |  ├─remotes
+|  |  |    ├─mjl-nuxt
+|  |  |    |    ├─main
+|  |  |    |    └master
+|  |  ├─heads
+|  |  |   ├─main
+|  |  |   └master
+|  ├─objects
+|  |    ├─pack
+|  |    ├─info
+|  |    ├─ff
+|  |    | └85fd734f151e0b859d0b9d3fa611070919de5a
+|  |    ├─fc
+|  |    | └a55b7383bd16ff7677bf4fa7d918a35cfe8888
+|  |    ├─f9
+|  |    | ├─d0089eaece5bc423d6406ea93a0bfd39202066
+|  |    | └d4d698614e0657253304da2c08923abc52ab5e
+|  |    ├─f8
+|  |    | └28576b509bacea6a9b490942e217859f65356d
+|  |    ├─f5
+|  |    | └db2a2dbfddb20bb90a1b07c5c9502aa7bfd716
+|  |    ├─f4
+|  |    | └8b70b3f81b1c28169647d61f817b4493bd3758
+|  |    ├─f2
+|  |    | └318d1badf311ff228a920889e08940dcfeb796
+|  |    ├─ef
+|  |    | └af04d37f3476013f6827fe2630b7ae064676b3
+|  |    ├─ea
+|  |    | └27327c2d352b2271ea8be77e63717ec3d04268
+|  |    ├─e9
+|  |    | └f958f32aacb5182a84b9785728e278dc723f54
+|  |    ├─e0
+|  |    | └8365d45d4c71a92eabe1a9db53d89e4cbeb7fb
+|  |    ├─df
+|  |    | └7e9f30dd556a2e65344c0ba67d633ae85e757f
+|  |    ├─d5
+|  |    | └0ada3248bd9d0f373807c23f264e5fc861c985
+|  |    ├─cf
+|  |    | └1951e23d2de9a4a0eaa590caf1d8d528b0b57f
+|  |    ├─cd
+|  |    | └a725b1ec28c04e80637381f8db40345a1f4d9e
+|  |    ├─ca
+|  |    | └df5e3cabd55081cb009cd53f60d10ad641b4d5
+|  |    ├─c3
+|  |    | └fd14d3d0e744d2b294aac8d41137040e6edb03
+|  |    ├─b9
+|  |    | └ed69c19eaf31e77ce2e16b509f884fe84934dc
+|  |    ├─b2
+|  |    | └40b9a30d848b4a2da7578626a943b8c90f5697
+|  |    ├─b1
+|  |    | └44a0b54fc599b4b24457fa6177e58313b3e167
+|  |    ├─ac
+|  |    | └1e8682e5d0616fcfd1dbdf1d4955b3678e5c2e
+|  |    ├─a7
+|  |    | ├─46f2a70c28960c343f778a460fa6124e0b55ca
+|  |    | └edfe433868ae47dc46873cbed6449520c14509
+|  |    ├─a6
+|  |    | └6165c49d5774ae8ebdde663f8cd3d58ac7edee
+|  |    ├─a4
+|  |    | └95b7573290d49d9fbc106f1a10ff1c6655c2ad
+|  |    ├─93
+|  |    | └6f57f8d444d61e023c662eb72b977e37234ce0
+|  |    ├─8a
+|  |    | └1dfd6605cc96ae9a59546c77caaa53b28a9496
+|  |    ├─88
+|  |    | └51e7746b250e08c1db37abcc563179d9a47b5f
+|  |    ├─6e
+|  |    | └c8f8497a5712b612bd348b3f9f2d1af03d5de0
+|  |    ├─69
+|  |    | └6d520a8ac43da5fd6a5b35338f4a93033ab6ac
+|  |    ├─65
+|  |    | └97b4d895e935a31115679cb4ab4bbf6539f333
+|  |    ├─64
+|  |    | └78ac111b5d395f9f069e1de567657479c7f9e3
+|  |    ├─63
+|  |    | └496785d5f98cde325df0e5b1cad9ca036bc961
+|  |    ├─5f
+|  |    | └78db5f859fe94808a74121d67216c4bbe466bb
+|  |    ├─5a
+|  |    | └f049a4e6db19045ec1838774bb731a7c02a95a
+|  |    ├─58
+|  |    | └39a8ece684a8813035362e3d8b03f68380fc88
+|  |    ├─53
+|  |    | └86e1c9226ae0a172baeb4e4d7a656d6017abea
+|  |    ├─4d
+|  |    | └65803be3e88be26c81203245079e0be76f35c2
+|  |    ├─4a
+|  |    | └7f73a2ed0d9f99a182a5855b29846de7bad09c
+|  |    ├─3b
+|  |    | ├─113eee6100cfcbfd5361b766583d275e31dbc0
+|  |    | └a40842b305178bb2081a39a7d9da26a5c397c1
+|  |    ├─37
+|  |    | └ce807babd047cbdf47fcb88c3ec4137e0b2407
+|  |    ├─26
+|  |    | └3533882da21882c8bbd377819e78fb8b677906
+|  |    ├─25
+|  |    | └2d69d2d6f05c8ff6d736378f42e4907148da79
+|  |    ├─1b
+|  |    | └623f2e266214c16f36f1499e668dbccc986e9d
+|  |    ├─18
+|  |    | └993ad91cfd43e03b074dd0b5cc3f37ab38e49c
+|  |    ├─16
+|  |    | └a5025eabce2d521f55ee021ed3d8cf98251e1d
+|  |    ├─13
+|  |    | ├─27e43824fe409a15a28108c24a4dbe16e7becc
+|  |    | └5b7901c6aad28994822251791fc066d36474b4
+|  |    ├─0b
+|  |    | └dfeb906c6c5c4bcf364122e8a4423cb2d64525
+|  |    ├─09
+|  |    | └c41d0d42d91dae7fb76bd72454ac2868df621d
+|  |    ├─06
+|  |    | └d8322f1213452573e1f30c9c5ff6236dddafdf
+|  |    ├─02
+|  |    | └504f4d38bd6cf77f7c3fe00f0a38db24a2e77d
+|  ├─logs
+|  |  ├─HEAD
+|  |  ├─refs
+|  |  |  ├─remotes
+|  |  |  |    ├─mjl-nuxt
+|  |  |  |    |    ├─main
+|  |  |  |    |    └master
+|  |  |  ├─heads
+|  |  |  |   ├─main
+|  |  |  |   └master
+|  ├─info
+|  |  └exclude
+|  ├─hooks
+|  |   ├─applypatch-msg.sample
+|  |   ├─commit-msg.sample
+|  |   ├─fsmonitor-watchman.sample
+|  |   ├─post-update.sample
+|  |   ├─pre-applypatch.sample
+|  |   ├─pre-commit.sample
+|  |   ├─pre-merge-commit.sample
+|  |   ├─pre-push.sample
+|  |   ├─pre-rebase.sample
+|  |   ├─pre-receive.sample
+|  |   ├─prepare-commit-msg.sample
+|  |   ├─push-to-checkout.sample
+|  |   ├─sendemail-validate.sample
+|  |   └update.sample
